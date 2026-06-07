@@ -1,0 +1,11 @@
+# 1. Abaikan semua file secara default
+*
+
+# 2. Jangan abaikan folder (agar Git bisa mencari file di dalamnya)
+!**/
+
+# 3. Jangan abaikan file .ipynb (hanya lacak Jupyter Notebook)
+!**/*.ipynb
+
+# 4. Jangan abaikan file .gitignore ini sendiri
+!.gitignore
